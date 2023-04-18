@@ -1,5 +1,6 @@
 # tsunami-1d
 Please read MATLAB/0README.txt and phase-correction/0README.txt, and follow the instructions.
+Impatient readers may start with phase-correction/0README.txt
 
 ## simulation of dispersive tsunamis in a constant depth ocean
 
