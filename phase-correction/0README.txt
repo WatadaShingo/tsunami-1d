@@ -151,6 +151,8 @@ output: created by running SAC_fft.sh
 
 4. Final note
 	The programs and scripts are provided for demostration purpose only.
+	To apply the phase correction to other time series data, the FFTW.sh or SAC_fft.sh scripts
+	must be modified to incorporte the new sampling interval and number of data points.
 	The basic preprocessing steps required for real time series data analysis
 	have been omitted.
 
