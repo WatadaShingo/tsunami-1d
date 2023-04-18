@@ -3,7 +3,12 @@ Please read MATLAB/0README.txt and phase-correction/0README.txt, and follow the 
 
 ## simulation of dispersive tsunamis in a constant depth ocean
 
-Tsunami dispersion relation is specified by the phase velocity as a function of wave periods.
+The tsunami dispersion relation is given by the phase velocity as a function of the wave periods.
+
+An example of tsunami dispersion is taken from [tsunami normal mode](https://github.com/WatadaShingo/mode-tsunami)
+dispersion including the effects of effects of the compressibility of seawater, the elasticity of the Earth, and the
+spatio-temporal change in gravity associated with the tsunami motion of seawater and the deformation of the solid Earth.
+
 
 ## References
 * Watada, Kusumoto, and Satake (2014), Traveltime delay and initial phase 
