@@ -8,7 +8,7 @@ Impatient readers may start with phase-correction/0README.txt
 The tsunami dispersion relation is given by the phase velocity as a function of the wave periods.
 
 An example of tsunami dispersion is taken from [**tsunami normal mode**](https://github.com/WatadaShingo/mode-tsunami)
-dispersion including the effects of effects of the compressibility of seawater, the elasticity of the Earth, and the
+dispersion including the effects of the compressibility of seawater, the elasticity of the Earth, and the
 spatio-temporal change in gravity associated with the tsunami motion of seawater and the deformation of the solid Earth.
 
 
