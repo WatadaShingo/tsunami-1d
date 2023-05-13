@@ -24,7 +24,7 @@ Table of Contents
 	sample1d, is used in FFTW.sh and SAC_fft.sh to inerpolate tabled data.
 	GMT Version 4 or 5.  Version 6 is not supported yet.
 
-	3) Descrete Fourier Transform (DFT)
+	3) Discrete Fourier Transform (DFT)
 
 	The phase of time series data is manipulated in the frequency domain.
 	The following two methods are provided. Either one works.
