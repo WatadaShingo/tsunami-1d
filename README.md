@@ -1,5 +1,7 @@
 # tsunami-1d
-Please read MATLAB/0README.txt and phase-correction/0README.txt, and follow the instructions.
+Functionality of MATLAB and Python directories are the same.
+Running either a Matplab code or a Python code generates text data files that are used in phase-correction directory.
+Please read MATLAB/0README.txt or Python/0README.txt. Also read phase-correction/0README.txt and follow the instructions.
 
 Impatient readers may start with phase-correction/0README.txt
 
