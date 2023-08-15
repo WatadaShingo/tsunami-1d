@@ -135,7 +135,7 @@ x_const   =exp(-phi_const*1j)
 x_disperse[total_npts//2]=0
 x_const[total_npts//2]   =0
 #
-# set zero amplitude abovei=max_omg_i
+# set zero amplitude above i=max_omg_i
 #
 x_disperse[max_omg_i:]=0
 x_const[max_omg_i:]   =0
