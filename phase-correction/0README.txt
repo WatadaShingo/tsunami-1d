@@ -52,7 +52,7 @@ prg:
 -rw-r--r-- 1 watada watada    671 Jun  5  2015 fftw3-test.c
 -rw-r--r-- 1 watada watada    459 Apr  6 15:59 makefile
 
-inputs: copied from the MATLAB directory
+inputs: copied from either the MATLAB or the Python directory
 -rw-r--r-- 1 watada watada 23258 Apr 16 21:58 tsunami_4km_constv_9000km.txt
 -rw-r--r-- 1 watada watada 22373 Apr 16 21:58 tsunami_4km_yn_9000km.txt
 -rw-r--r-- 1 watada watada 11915 Apr 16 21:58 tsunami_timeaxis.txt
@@ -76,7 +76,7 @@ output: created by running SAC_fft.sh
 	tsunami_4km_yn_9000km.txt (*1): dispersed tsunami waveform at 9000 km
 	tsunami_timeaxis.txt (*1): time axis
 
-	(*1) copied from the MATLAB directory
+	(*1) copied from either the MATLAB or the Python directory
 
 	mode.dat_4km_yn (*2): theoretical tsunami mode dispersion relation for a 4km deep ocean of
 		the PREM earth model including the effects of the spatio-temporal change in gravity,
