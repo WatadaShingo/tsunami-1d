@@ -147,7 +147,7 @@ output: created by running SAC_fft.sh
 	This is because, in the later part of the dispersed packet, the waves are
 	propagating slowly and their phase velocity deviates much from
 	the long-wave speed. The phase-phase correction method by Watada et al. (2014)
-	assumes the phase correction is much smaller than the long-wave velocity.
+	assumes the phase-speed change is much smaller than the long-wave velocity.
 
 4. Final note
 	The programs and scripts are provided for demostration purpose only.
