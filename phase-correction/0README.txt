@@ -140,7 +140,7 @@ output: created by running SAC_fft.sh
 	SAC> r more tsunami_4km_prem_9000km.sac
 	SAC> bd x;qdp off;p1
 
-	Two phase-correction methods (SAC_fft.sh and FFTW) provide nearly the same
+	Two phase-correction methods (SAC_fft.sh and FFTW.sh) provide nearly the same
 	dispersed dwaveforms. tsunami_4km_prem_9000km.sac and two phase-corrected files
 	are very close at the begining.  However toward the end of the dispersed small
 	amplitude waveforms, the phase shift between the two increases.
