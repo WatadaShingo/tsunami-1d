@@ -36,6 +36,9 @@ Table of Contents
 
 2. Running Python scripts
 
+	# Remove all existing *.txt files. Python script stops if they exist.
+	% rm *.txt
+
 	# Run the tsunami propagation demonstration,
 	% python tsunami_4km_yn.py
 
