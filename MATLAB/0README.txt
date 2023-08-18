@@ -65,6 +65,6 @@ Watada, S., Kusumoto, S., and Satake, K. (2014),
 Traveltime delay and initial phase reversal of distant tsunamis coupled with the self-gravitating elastic Earth,
 J. Geophys. Res. Solid Earth, 119, 4287– 4310, doi:10.1002/2013JB01084
 
-Watada,S.,
+Watada,S. (2023),
 Progress and Application of the Synthesis of Trans-oceanic Tsunamis,
-Progress in Earth and Planetary Science, submitted
+Progress in Earth and Planetary Science, 10, 26, doi:10.1186/s40645-023-00555-1
