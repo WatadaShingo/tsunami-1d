@@ -13,6 +13,8 @@ An example of tsunami dispersion is taken from [**tsunami normal mode**](https:/
 dispersion including the effects of the compressibility of seawater, the elasticity of the Earth, and the
 spatio-temporal change in gravity associated with the tsunami motion of seawater and the deformation of the solid Earth.
 
+2023/09/01
+In the Python directory, Python scripts to generate animations of 1D tsunami propagation have been added.
 
 ## References
 * Watada, Kusumoto, and Satake (2014), Traveltime delay and initial phase 

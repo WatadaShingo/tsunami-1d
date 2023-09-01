@@ -11,6 +11,8 @@ Table of Contents
 -rw-r--r--. 1 watada ftp  2954  8月 15 21:48 2023 0README.txt
 
 -rw-r--r--. 1 watada ftp  5561  8月 15 21:34 2023 tsunami_4km_yn.py
+-rw-r--r--. 1 watada ftp  9310  9月  1 21:09 wave_animation_records.py
+-rw-r--r--. 1 watada ftp 10156  9月  1 20:53 wave_animation_snapshots.py
 
 -rw-r--r--. 1 watada ftp  6077  8月 11 16:53 2012 mode.dat_4km_yn
 
@@ -24,9 +26,12 @@ Table of Contents
 -rw-r--r--. 1 watada ftp 16011  8月 15 21:34 2023 tsunami_timeaxis.txt
 
 	# Python scripts #
-	tsunami.py:  a python script for tsunami propagation simulation along 
+	tsunami_4km_yn.py:  a python script for tsunami propagation simulation along 
 		a given dispersion branch.
 		Wave packet type, either ricker or gaussian can be selected.
+
+	wave_animation_records.py: tsunami animation moving over distance 
+	wave_animation_snaoshots.py:tsunami animation  moving over time
 
 	# Input data file #
 	mode.dat_4km_yn: theoretical tsunami mode dispersion relation for a 4km deep ocean of
@@ -51,6 +56,10 @@ Table of Contents
 	tsunami_constv_6000km.txt: non-dispersed waveform at 6000 km
 	tsunami_constv_9000km.txt: non-dispersed waveform at 9000 km
 	tsunami_timeaxis.txt: time axis
+
+	# Create animation
+	% python wave_animation_records.py
+	% python wave_animation_snapshots.py
 
 Reference
 Watada, S., Kusumoto, S., and Satake, K. (2014), 
