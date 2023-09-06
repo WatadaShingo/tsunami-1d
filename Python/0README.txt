@@ -8,22 +8,25 @@ Table of Contents
 
 1. Files
 
--rw-r--r--. 1 watada ftp  2954  8月 15 21:48 2023 0README.txt
+total 368
 
--rw-r--r--. 1 watada ftp  5561  8月 15 21:34 2023 tsunami_4km_yn.py
--rw-r--r--. 1 watada ftp  9310  9月  1 21:09 wave_animation_records.py
--rw-r--r--. 1 watada ftp 10156  9月  1 20:53 wave_animation_snapshots.py
+-rw-r--r--. 1 watada ftp  2964 Sep  1 22:19 0README.txt
 
--rw-r--r--. 1 watada ftp  6077  8月 11 16:53 2012 mode.dat_4km_yn
+-rw-r--r--. 1 watada ftp  5562 Aug 15 22:41 tsunami_4km_yn.py
+-rw-r--r--. 1 watada ftp  9310 Sep  1 21:09 wave_animation_records.py
+-rw-r--r--. 1 watada ftp 10156 Sep  1 20:53 wave_animation_snapshots.py
+-rw-r--r--. 1 watada ftp  5361 Sep  6 21:20 dispersion_curves.py
 
--rw-r--r--. 1 watada ftp 46531  8月 15 21:34 2023 tsunami_4km_constv_3000km.txt
--rw-r--r--. 1 watada ftp 46499  8月 15 21:34 2023 tsunami_4km_constv_6000km.txt
--rw-r--r--. 1 watada ftp 46511  8月 15 21:34 2023 tsunami_4km_constv_9000km.txt
--rw-r--r--. 1 watada ftp 10499  8月 15 21:34 2023 tsunami_4km_yn_0km.txt
--rw-r--r--. 1 watada ftp 46519  8月 15 21:34 2023 tsunami_4km_yn_3000km.txt
--rw-r--r--. 1 watada ftp 46185  8月 15 21:34 2023 tsunami_4km_yn_6000km.txt
--rw-r--r--. 1 watada ftp 45900  8月 15 21:34 2023 tsunami_4km_yn_9000km.txt
--rw-r--r--. 1 watada ftp 16011  8月 15 21:34 2023 tsunami_timeaxis.txt
+-rw-r--r--. 1 watada ftp  6077 Aug 11  2012 mode.dat_4km_yn
+
+-rw-r--r--. 1 watada ftp 46531 Aug 15 21:34 tsunami_4km_constv_3000km.txt
+-rw-r--r--. 1 watada ftp 46499 Aug 15 21:34 tsunami_4km_constv_6000km.txt
+-rw-r--r--. 1 watada ftp 46511 Aug 15 21:34 tsunami_4km_constv_9000km.txt
+-rw-r--r--. 1 watada ftp 10499 Aug 15 21:34 tsunami_4km_yn_0km.txt
+-rw-r--r--. 1 watada ftp 46519 Aug 15 21:34 tsunami_4km_yn_3000km.txt
+-rw-r--r--. 1 watada ftp 46185 Aug 15 21:34 tsunami_4km_yn_6000km.txt
+-rw-r--r--. 1 watada ftp 45900 Aug 15 21:34 tsunami_4km_yn_9000km.txt
+-rw-r--r--. 1 watada ftp 16011 Aug 15 21:34 tsunami_timeaxis.txt
 
 	# Python scripts #
 	tsunami_4km_yn.py:  a python script for tsunami propagation simulation along 
@@ -32,6 +35,8 @@ Table of Contents
 
 	wave_animation_records.py: tsunami animation moving over distance 
 	wave_animation_snaoshots.py:tsunami animation  moving over time
+	dispersion_curves: plot three dispersion curves (PREM, gravity wave, long-wave)
+		and amplitude spectra of initial Gaussian waveforms.
 
 	# Input data file #
 	mode.dat_4km_yn: theoretical tsunami mode dispersion relation for a 4km deep ocean of
