@@ -1,7 +1,7 @@
 # tsunami-1d
 Functionality of MATLAB and Python directories are the same.
 One difference of the Python directory from the MATLAB directory is the extra plotting scripts 
-to generate animations of 1D tsunami probagation.
+to generate animations of 1D tsunami propagation.
 Running either a Matplab code or a Python code generates text data files that are used in phase-correction directory.
 Please read MATLAB/0README.txt or Python/0README.txt. Also read phase-correction/0README.txt and follow the instructions.
 
