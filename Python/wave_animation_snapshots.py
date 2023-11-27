@@ -9,7 +9,7 @@ input:
 output:
         tsunami_animation_snapshots.mp4
 
-% python wave_animation_snapshots.py
+% python wave_animation_snapshots.py < wave.py.in
 
 Shingo Watada
 2023/09/01
@@ -30,9 +30,8 @@ print("scipy = ",sp.version.full_version)
 print("matplotlib = ",matplotlib.__version__)
 t=time.time()
 
-dispersion_file='mode.dat_4km_yn'
-#dispersion_file=input('dispersion table file name >>')
-#print('')
+dispersion_file=input('dispersion table file name >>')
+print('')
 
 def set_dispersion(filename):
    data=np.loadtxt(filename,dtype='float64',skiprows=1)
@@ -331,4 +330,4 @@ anim.save('tsunami_animation_snapshots.mp4', fps=10, extra_args=['-vcodec', 'lib
 # display a movie in a Matplotlib figure
 #plt.show()
 
-print( 'clock time=%.5f' % (time.time()-t))
+print( 'clock time=%.5f' sec % (time.time()-t))

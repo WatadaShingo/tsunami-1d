@@ -8,8 +8,9 @@ input:
 	mode.dat_4km_yn
 output:
 	tsunami_animation_records.mp4
+	final_records.jpg
 
-% python wave_animation_records.py
+% python wave_animation_records.py < wave.py.in
 
 Shingo Watada
 2023/09/01
@@ -30,9 +31,8 @@ print("scipy = ",sp.version.full_version)
 print("matplotlib = ",matplotlib.__version__)
 t=time.time()
 
-dispersion_file='mode.dat_4km_yn'
-#dispersion_file=input('dispersion table file name >>')
-#print('')
+dispersion_file=input('dispersion table file name >>')
+print('')
 
 def set_dispersion(filename):
    data=np.loadtxt(filename,dtype='float64',skiprows=1)
@@ -295,7 +295,7 @@ fig.text(0.5,0.01,'time, min',ha='center')
 # call the animator.  blit=True means only re-draw the parts that have changed.
 # interval is milli-second between each frame
 anim = animation.FuncAnimation(fig, plotlines, init_func=init,\
- frames=200, interval=60, blit=True)
+ frames=200, interval=60, blit=True, repeat=True)
 
 # save the animation as an mp4.  This requires ffmpeg or mencoder to be
 # installed.  The extra_args ensure that the x264 codec is used, so that
@@ -306,5 +306,6 @@ anim.save('tsunami_animation_records.mp4', fps=10, extra_args=['-vcodec', 'libx2
 
 # display a movie in a Matplotlib figure
 #plt.show()
+fig.savefig("final_records.jpg",dpi=360)
 
-print( 'clock time=%.5f' % (time.time()-t))
+print( 'clock time=%.5f' sec % (time.time()-t))

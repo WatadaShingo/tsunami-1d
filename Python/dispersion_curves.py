@@ -156,7 +156,8 @@ print(f'type of s1[0]: {type(s1[0])} size of s1: {s1.size}.')
 #
 
 # First set up the figure, the axis, and the plot element we want to animate
-fig = plt.figure(figsize=(6.0,4.0))
+#fig = plt.figure(figsize=(6.0,4.0))
+fig = plt.figure(figsize=(3.0,4.0))
 
 #
 # Both ax=plt.axes() ax=fig.add_subplot() are OK
@@ -197,5 +198,7 @@ ax.grid()
 fig.tight_layout()
 plt.show()
 fig.savefig("dispersion_curves.jpg",dpi=360)
+
+print( 'clock time=%.5f' sec % (time.time()-t))
 
 sys.exit(0)
