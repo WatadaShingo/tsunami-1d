@@ -330,4 +330,4 @@ anim.save('tsunami_animation_snapshots.mp4', fps=10, extra_args=['-vcodec', 'lib
 # display a movie in a Matplotlib figure
 #plt.show()
 
-print( 'clock time=%.5f' sec % (time.time()-t))
+print( 'clock time=%.5f sec' % (time.time()-t))

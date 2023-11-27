@@ -308,4 +308,4 @@ anim.save('tsunami_animation_records.mp4', fps=10, extra_args=['-vcodec', 'libx2
 #plt.show()
 fig.savefig("final_records.jpg",dpi=360)
 
-print( 'clock time=%.5f' sec % (time.time()-t))
+print( 'clock time=%.5f sec' % (time.time()-t))
