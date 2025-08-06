@@ -18,10 +18,10 @@ Table of Contents
 
 	SAC commands are used in convert2sac.sh, FFTW.sh, and SAC_fft.sh
 
-	2) Interporation of table data 
+	2) Interpolation of table data 
 
 	A Generic Mapping Tools (GMT, https://www.generic-mapping-tools.org) command,
-	sample1d, is used in FFTW.sh and SAC_fft.sh to inerpolate tabled data.
+	sample1d, is used in FFTW.sh and SAC_fft.sh to interpolate tabled data.
 	GMT Version 4 or 5.  Version 6 is not supported yet.
 
 	3) Discrete Fourier Transform (DFT)
@@ -37,7 +37,7 @@ Table of Contents
 
 2. Files
 
--rw-r--r-- 1 watada watada  6119 Apr 17 16:02 0README.txt
+-rw-r--r-- 1 watada watada  6839 Aug  6 22:36 0README.txt
 -rwxr--r-- 1 watada watada  2422 Apr 17 11:56 FFTW.sh
 -rwxr--r-- 1 watada watada  3139 Apr 17 10:28 SAC_fft.sh
 -rwxr-xr-x 1 watada watada   516 Apr 17 11:43 convert2sac.sh
@@ -46,6 +46,7 @@ prg:
 -rw-r--r-- 1 watada watada    145 Aug  7  2014 data_c.in
 -rw-r--r-- 1 watada watada     64 Aug  6  2014 data_r.in
 -rwxrwxr-x 1 watada watada 306520 Apr  6 22:29 dft_c2r
+-rwxr--r-- 1 watada watdaa   1721 Jul 30  2016 dft_c2r.c
 -rwxrwxr-x 1 watada watada 311848 Apr  6 22:29 dft_r2c
 -rwxr--r-- 1 watada watada   1707 Jul 30  2016 dft_r2c.c
 -rwxrwxr-x 1 watada watada 279552 Apr 17 12:51 fftw3-test

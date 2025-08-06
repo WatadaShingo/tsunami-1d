@@ -10,7 +10,7 @@ Table of Contents
 
 total 368
 
--rw-r--r--. 1 watada ftp  2964 Sep  1 22:19 0README.txt
+-rw-r--r--. 1 watada ftp  3153 Aug  6 22:18 0README.txt
 
 -rw-r--r--. 1 watada ftp  5562 Aug 15 22:41 tsunami_4km_yn.py
 -rw-r--r--. 1 watada ftp  9310 Sep  1 21:09 wave_animation_records.py
@@ -35,7 +35,7 @@ total 368
 
 	wave_animation_records.py: tsunami animation moving over distance 
 	wave_animation_snaoshots.py:tsunami animation  moving over time
-	dispersion_curves: plot three dispersion curves (PREM, gravity wave, long-wave)
+	dispersion_curves.py: plot three dispersion curves (PREM, gravity wave, long-wave)
 		and amplitude spectra of initial Gaussian waveforms.
 
 	# Input data file #
