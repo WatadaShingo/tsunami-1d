@@ -124,7 +124,7 @@ output: created by running SAC_fft.sh
 	% SAC_fft.sh
 
 	# Another sample shell script to do forward and inverse FFT
-	# by using the FFTW functions in the Intel MKL libarry
+	# by using the FFTW functions in the Intel MKL library
 	% FFTW.sh
 
 
@@ -143,17 +143,17 @@ output: created by running SAC_fft.sh
 
 	Two phase-correction methods (SAC_fft.sh and FFTW.sh) provide nearly the same
 	dispersed dwaveforms. tsunami_4km_prem_9000km.sac and two phase-corrected files
-	are very close at the begining.  However toward the end of the dispersed small
+	are very close at the begining.  However, toward the end of the dispersed small
 	amplitude waveforms, the phase shift between the two increases.
 	This is because, in the later part of the dispersed packet, the waves are
 	propagating slowly and their phase velocity deviates much from
-	the long-wave speed. The phase-phase correction method by Watada et al. (2014)
-	assumes the phase-speed change is much smaller than the long-wave velocity.
+	the long-wave speed. The phase correction method by Watada et al. (2014)
+	assumes that the phase-speed change is much smaller than the long-wave velocity.
 
 4. Final note
-	The programs and scripts are provided for demostration purpose only.
+	The programs and scripts are provided for demonstration purposes only.
 	To apply the phase correction to other time series data, the FFTW.sh or SAC_fft.sh scripts
-	must be modified to incorporte the new sampling interval and number of data points.
+	must be modified to incorporate the new sampling interval and number of data points.
 	The basic preprocessing steps required for real time series data analysis
 	have been omitted.
 

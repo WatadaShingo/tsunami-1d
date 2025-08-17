@@ -40,8 +40,8 @@ total 368
 
 	# Input data file #
 	mode.dat_4km_yn: theoretical tsunami mode dispersion relation for a 4km deep ocean of
-		the PREM earth model including the effects of the spatio-temporal change in gravity,
-		water compressibility, and elasticity of the Earth.
+		the PREM Earth model, including the effects of the spatio-temporal change in gravity,
+		water compressibility, and the elasticity of the Earth.
 	mode.dat_4km_yn is an output from the mode-tsunami package that is available in GitHub.
 
 2. Running Python scripts
